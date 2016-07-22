@@ -1,9 +1,9 @@
-			</div>
-		</div>
-		<div id="footer">
-			<div class="container">
-				footer
-			</div>
-		</div>
-	</div>
-</div>
+		</div><!-- //wrap -->
+	</section><!-- //container -->
+	<footer id="footer">
+		<div class="wrap">
+			
+
+		</div><!-- //wrap -->
+	</footer><!-- //footer -->
+</div><!-- #wrap -->
