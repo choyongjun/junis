@@ -1,12 +1,11 @@
 <?php
-$config["sitename"] = "David Yong-Jun Cho";
+$config["sitename"] = "ㅇㅇㅇ";
 $config["mode"] = "front";
 $config["isDev"] = true;
 $config["cssTableMinWidth"] = 640;
 $config["cssDesktopMinWidth"] = 1024;
 $config["cssLargeDesktopMinWidth"] = 1280;
-?>
-<!DOCTYPE html>
+?><!DOCTYPE html>
 <html lang="ko-KR">
 <head>
 <meta charset="UTF-8">

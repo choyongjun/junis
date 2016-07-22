@@ -1,98 +1,57 @@
+.container{
+	padding: 0 12px;
+	background-color: rgba(255, 255, 255, .3);
+}
 #wrap{
 	position: relative;
-}
-#header, #container, #footer{
-	position: relative;
-	width: 100%;
-	height: auto;
-	margin: 0;
-/* 	padding: 0; */
-}
-.wrap{
-	position: relative;
-	margin: 0 auto;
-	width: 100%;
-	padding: 0;
+	height: 100%;
+	.app-min-width();
 }
 #header{
-	height: 80px;
-	background-color: #3c775e;
-	text-align: center;
-	h1{
-		display: inline-block;
-		margin: 0;
-		padding: 20px;
-		a{
-			color: #fff;
-		}
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	z-index: 300;
+	overflow: hidden;
+	background-color: #000;
+	
+	&, .container{
+		height: 100px;
+	}
+	.container{
+		position: relative;
 	}
 }
-
-#nav{
-	display: none;
-	
-	ul{ 
-		
-		li{
-			display:inline-block;
-			
-			
-			a{
-				color: #fff;
-			}
-		}
-	}
-	
+.body{
+	height: 100%;
 }
-
-.mobile-nav{
-	
-	button{
-		display: block;
-		width: 40px;
-		height: 40px;
-		border-top: 10px solid red;
-		border-right: 10px solid blue;
-		border-bottom: 10px solid orange;
-		border-left: 10px solid yellow;
-		border-radius: 50%;
-		background-color: #3c775e;
-		transition: 1s ease;
-		position: absolute;
-		right: 0px;
-		top: 20px;
-		z-index: 1;
-	}
-	button:hover{
-		transform: rotate(1800deg);
-		
-	}
-	
-	ul{
-		position: absolute;
-		right: 0;
-		top: 0;
-		width: 30%;
-		height: 300px
-		border: 1px solid #000;
-		background-color: #66b293;
-		
-		li{
-			padding: 20px;
-			
-		
-		}
-		
-	}
-	
-	
-	
-}
-
-
 #container{
+	position: relative;
+	z-index: 100;
+	overflow: hidden;
+	padding: 100px 0 100px;
+	margin-bottom: -100px;
+	min-height: 100%;
+	background-color: #ff0;
 	
+	.container{
+		position: relative;
+	}
+}
+#snb{
+	background-color: #99f;
 }
 #footer{
+	position: relative;
+	z-index: 200;
+	overflow: hidden;
+	background-color: #0f0;
 	
+	&, .container{
+		height: 100px;
+	}
+	.container{
+		position: relative;
+	}
 }
