@@ -1,9 +1,10 @@
-			</div>
-		</div>
-		<div id="footer">
-			<div class="container">
-				footer
-			</div>
-		</div>
-	</div>
-</div>
+<div id="footer">
+<div class="wrap">
+	
+
+
+
+
+</div><!-- // class=wrap -->	
+</div><!-- 	//footer -->
+</div><!-- //wrap -->

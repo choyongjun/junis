@@ -1,11 +1,22 @@
 <div id="wrap">
-	<div id="header">
-		<div class="container">
-			header<br>
-			<a href="index.php">index 바로가기</a>
-			<a href="sub.php">sub 바로가기</a>
-		</div>
+<div id="index_top">
+	<a href="#header"><span>헤더 바로가기</span></a>
+	<a href="#container"><span>본문 바로가기</span></a>
+	<a href="#footer"><span>푸터 바로가기</span></a>
+</div><!-- //index_top -->
+<div id="banner_top">
+
+</div><!-- //banner_top -->
+<div id="header">
+<div class="wrap">
+	<div class="gnb">
+		
 	</div>
-	<div class="body">
-		<div id="container">
-			<div class="container">
+	<div class="sta">
+		
+	</div>
+	<div class="lnb">
+		
+	</div>
+</div><!-- // class=wrap -->
+</div><!-- 	//header -->
